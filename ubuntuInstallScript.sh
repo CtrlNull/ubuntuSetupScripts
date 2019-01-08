@@ -29,6 +29,11 @@ cd Downloads
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
+# Spotify #
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410
+sudo add-apt-repository "deb http://repository.spotify.com stable non-free"
+sudo apt install -y spotify-client
+
 ##@# Install Dev Stuff ###@
 
 # Git #
