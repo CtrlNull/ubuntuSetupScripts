@@ -43,6 +43,12 @@ wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt install -y code
 
+# Docker #
+sudo apt install -y docker
+
+# Vim #
+sudo apt install -y vim
+
 # my Key commands
 # ssh-keygen
 # xclip -sel c < .ssh/id_rsa.pub 
