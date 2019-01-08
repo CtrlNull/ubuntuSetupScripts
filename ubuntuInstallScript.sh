@@ -18,14 +18,30 @@ sudo apt install -y arc-theme
 # Gnome Tweak tool #
 sudo apt install gnome-tweak-tool
 
+# Gnome Shell Extentions #
+sudo apt install gnome-shell-extensions
+
+# Chromium #
+sudo apt install -y chromium-browser
+
+# Chrome #
+cd Downloads
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 ##@# Install Dev Stuff ###@
 
-# Git
+# Git #
 sudo apt install -y git
 
-# x-clip
+# x-clip #
 sudo apt install -y xclip
+
+# VSCode #
+sudo apt install -y software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt install -y code
 
 # my Key commands
 # ssh-keygen
